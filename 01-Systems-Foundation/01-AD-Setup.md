@@ -1,6 +1,6 @@
 ## PRE-REQUISITES (Before Installing AD)
-### Installing Windows Server 2022 
-![[Pasted image 20251214122740.png]]
+### Installing Windows Server 2022 s
+![00-Install-Winserver](attachments/00-Install-Winserver.png)
 ### Set a Static IP 
 Open PowerShell and type : `ipconfig /all`
 ![[Pasted image 20251214123000.png]]
