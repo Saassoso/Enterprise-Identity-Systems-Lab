@@ -31,4 +31,4 @@ This documentation is organized by operational domain:
 
 
 ## 👤 Author
-**Saad Charif** *Systems & Security Junior* 
+**Saad Charif** | *Systems & Security Junior* 
