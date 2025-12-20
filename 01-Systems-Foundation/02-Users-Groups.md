@@ -8,7 +8,6 @@
 Management performed via **Active Directory Users and Computers (ADUC)** on `DC01`.
 
 ![ADUC Console Access](./attachments/aduc-console-open.png)
-*(Screenshot of Server Manager > Tools > ADUC)*
 
 ## 3. OU Architecture Design
 **Strategy:** Avoid the default "Users" container. Implemented a hierarchical Organizational Unit (OU) structure to separate permissions by department.
@@ -35,7 +34,7 @@ Implemented **Global Security Groups** to manage permissions efficiently, adheri
 | **Finance** | `GG_Finance_Staff` | Global | Security |
 
 ![Group Creation](./attachments/group-creation.png)
-*(Screenshot of Group creation dialog in IT OU)*
+
 
 ## 5. User Provisioning
 **Naming Convention:** `FirstInitial.LastName` (e.g., `s.admin`).
@@ -47,7 +46,7 @@ Implemented **Global Security Groups** to manage permissions efficiently, adheri
 * **Finance:** `f.director` (CFO), `o.account`, `n.audit`, `d.billing`
 
 ![User Creation Config](./attachments/user-password-setting.png)
-*(Screenshot showing the password change checkbox)*
+
 
 ## 6. Access Assignment
 Users were added to their respective Global Groups to ensure correct inheritance of future permissions.
@@ -56,7 +55,7 @@ Users were added to their respective Global Groups to ensure correct inheritance
 * **Validation:** Verified "Member Of" tab for key users.
 
 ![Group Membership](./attachments/add-to-group.png)
-*(Screenshot of the Select Users/Group dialog)*
+
 
 ---
 *Verified by: Saad Charif | Date: Dec 20, 2025*
