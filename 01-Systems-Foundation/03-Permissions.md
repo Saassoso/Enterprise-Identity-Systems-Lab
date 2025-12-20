@@ -2,6 +2,7 @@
 
 ## 1. Project Overview
 **Objective:** Secure the corporate file server (`\\DC01\CompanyData`) using the Principle of Least Privilege.
+
 **Method:** Implemented a split-permission model: "Open" Share permissions combined with "Restrictive" NTFS permissions.
 
 ## 2. Shared Folder Architecture
