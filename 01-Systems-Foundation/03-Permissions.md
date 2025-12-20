@@ -64,9 +64,11 @@ Conducted penetration testing masquerading as user `f.director` (Finance Directo
 
 ### Evidence of Enforcement
 **Success:** User creating file in Finance folder.
+
 ![Finance Access Success](./attachments/access-success-finance.png)
 
 **Block:** User denied access to IT folder.
+
 ![IT Access Denied](./attachments/access-denied-it.png)
 
 ---
