@@ -16,8 +16,6 @@ Management performed via **Active Directory Users and Computers (ADUC)** on `DC0
 * **Root:** `_CORP` (Underscore ensures visibility at top).
 
 ![OU Creation Wizard](./attachments/ou-creation-process.png)
-*(Screenshot of the created _CORP and sub-OUs)*
-
 
 * **Sub-OUs:**
     * `IT` (Technical Administrators)
@@ -25,7 +23,6 @@ Management performed via **Active Directory Users and Computers (ADUC)** on `DC0
     * `Finance` (Financial Operations)
 
 ![Sub-OU Creation Wizard](./attachments/sub-ou.png)
-*(Screenshot of the sub-OUs)*
 
 
 ## 4. RBAC Group Strategy
