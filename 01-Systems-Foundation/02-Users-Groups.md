@@ -7,20 +7,24 @@
 ## 2. Tool Access
 Management performed via **Active Directory Users and Computers (ADUC)** on `DC01`.
 
-![ADUC Console Access](../assets/aduc-console-open.png)
+![ADUC Console Access](./attachments/aduc-console-open.png)
 *(Screenshot of Server Manager > Tools > ADUC)*
 
 ## 3. OU Architecture Design
 **Strategy:** Avoid the default "Users" container. Implemented a hierarchical Organizational Unit (OU) structure to separate permissions by department.
 
 * **Root:** `_CORP` (Underscore ensures visibility at top).
+
+![OU Creation Wizard](./attachments/ou-creation-process.png)
+*(Screenshot of the created _CORP and sub-OUs)*
+
 * **Sub-OUs:**
     * `IT` (Technical Administrators)
     * `HR` (Human Resources)
     * `Finance` (Financial Operations)
 
-![OU Creation Wizard](../assets/ou-creation-process.png)
-*(Screenshot of the created _CORP and sub-OUs)*
+![Sub-OU Creation Wizard](./attachments/sub-ou.png)
+*(Screenshot of the sub-OUs)*
 
 ## 4. RBAC Group Strategy
 Implemented **Global Security Groups** to manage permissions efficiently, adhering to the "User -> Group -> Resource" model.
@@ -31,7 +35,7 @@ Implemented **Global Security Groups** to manage permissions efficiently, adheri
 | **HR** | `GG_HR_Staff` | Global | Security |
 | **Finance** | `GG_Finance_Staff` | Global | Security |
 
-![Group Creation](../assets/group-creation.png)
+![Group Creation](./attachments/group-creation.png)
 *(Screenshot of Group creation dialog in IT OU)*
 
 ## 5. User Provisioning
@@ -43,7 +47,7 @@ Implemented **Global Security Groups** to manage permissions efficiently, adheri
 * **HR:** `h.manager` (Director), `s.recruit`, `k.payroll`, `l.admin`
 * **Finance:** `f.director` (CFO), `o.account`, `n.audit`, `d.billing`
 
-![User Creation Config](../assets/user-password-setting.png)
+![User Creation Config](./attachments/user-password-setting.png)
 *(Screenshot showing the password change checkbox)*
 
 ## 6. Access Assignment
@@ -52,7 +56,7 @@ Users were added to their respective Global Groups to ensure correct inheritance
 * **Action:** `s.admin` added to `GG_IT_Team`.
 * **Validation:** Verified "Member Of" tab for key users.
 
-![Group Membership](../assets/add-to-group.png)
+![Group Membership](./attachments/add-to-group.png)
 *(Screenshot of the Select Users/Group dialog)*
 
 ---
