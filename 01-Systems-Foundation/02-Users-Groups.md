@@ -18,6 +18,7 @@ Management performed via **Active Directory Users and Computers (ADUC)** on `DC0
 ![OU Creation Wizard](./attachments/ou-creation-process.png)
 *(Screenshot of the created _CORP and sub-OUs)*
 
+
 * **Sub-OUs:**
     * `IT` (Technical Administrators)
     * `HR` (Human Resources)
@@ -25,6 +26,7 @@ Management performed via **Active Directory Users and Computers (ADUC)** on `DC0
 
 ![Sub-OU Creation Wizard](./attachments/sub-ou.png)
 *(Screenshot of the sub-OUs)*
+
 
 ## 4. RBAC Group Strategy
 Implemented **Global Security Groups** to manage permissions efficiently, adhering to the "User -> Group -> Resource" model.
