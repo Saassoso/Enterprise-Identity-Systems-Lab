@@ -1,4 +1,4 @@
-# Day 4: Global Security Policy & Hardening
+# Global Security Policy & Hardening
 
 ## 1. Project Overview
 **Objective:** Implement a domain-wide Identity Security Baseline to mitigate credential theft and brute-force attacks.
