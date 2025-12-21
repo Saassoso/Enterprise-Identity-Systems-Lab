@@ -58,4 +58,4 @@ Users were added to their respective Global Groups to ensure correct inheritance
 
 
 ---
-*Verified by: Saad Charif | Date: Dec 20, 2025*
+*Verified by: Saad Charif*
