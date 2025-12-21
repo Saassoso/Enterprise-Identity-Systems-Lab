@@ -32,4 +32,4 @@ Logged in as the Tier 0 administrative account and validated group membership.
 ![Tier 0 Verification](./attachments/tier0-verification.png)
 
 ---
-*Verified by: Saad Charif *
+*Verified by: Saad Charif*
