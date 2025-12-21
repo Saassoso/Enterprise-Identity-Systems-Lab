@@ -18,7 +18,6 @@ In flat AD environments, a single "Domain Admin" often logs into infected workst
 | **User** | **Productivity** (Email, Web, Office) | `s.admin` | **Standard User**. 0% Administrative Privilege. |
 
 ![Admin Tiering OU Structure](./attachments/admin-tier-ou.png)
-*(Screenshot of the ADUC console showing the isolated 'Admin_Accounts' OU)*
 
 ## 4. Implementation Details
 1.  **OU Isolation:** Created a protected Organizational Unit `Admin_Accounts` to separate privileged identities from standard users.
@@ -31,7 +30,6 @@ Logged in as the Tier 0 administrative account and validated group membership.
 * **Result:** Confirmed membership in `LAB\Domain Admins`.
 
 ![Tier 0 Verification](./attachments/tier0-verification.png)
-*(Proof of Domain Admin privileges for the Tier 0 account)*
 
 ---
-*Verified by: Saad Charif | Date: Dec 2025*
+*Verified by: Saad Charif *
