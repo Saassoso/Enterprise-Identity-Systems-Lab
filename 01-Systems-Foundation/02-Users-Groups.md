@@ -1,4 +1,4 @@
-# Day 2: Identity Architecture & User Provisioning
+# Identity Architecture & User Provisioning
 
 ## 1. Project Overview
 **Objective:** Establish the organizational hierarchy (OU) and Role-Based Access Control (RBAC) foundation for the domain.
