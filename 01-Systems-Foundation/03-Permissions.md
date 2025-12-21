@@ -72,4 +72,4 @@ Conducted penetration testing masquerading as user `f.director` (Finance Directo
 ![IT Access Denied](./attachments/access-denied-it.png)
 
 ---
-*Verified by: Saad Charif | Date: Dec 20, 2025*
+*Verified by: Saad Charif*
