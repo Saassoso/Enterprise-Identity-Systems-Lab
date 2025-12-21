@@ -1,4 +1,4 @@
-# Day 3: Data Security & Access Control (NTFS)
+# Data Security & Access Control (NTFS)
 
 ## 1. Project Overview
 **Objective:** Secure the corporate file server (`\\DC01\CompanyData`) using the Principle of Least Privilege.
