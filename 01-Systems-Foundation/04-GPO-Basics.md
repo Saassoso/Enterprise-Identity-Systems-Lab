@@ -35,4 +35,4 @@ Validated the active password policy on the Domain Controller using the command 
 ![Net Accounts Success](./attachments/net-accounts-success.png)
 
 ---
-*Verified by: Saad Charif *
+*Verified by: Saad Charif*
