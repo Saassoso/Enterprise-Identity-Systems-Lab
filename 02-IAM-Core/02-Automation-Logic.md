@@ -45,12 +45,14 @@ Executed the onboarding script for a batch of 5 new employees.
 
 ### Phase 1: Logic Patch (Mapping Rule)
 **Problem:** The original script (V1) had no rule for `Department = Management`, causing User `Eve Evil` to fall into the default `CN=Users` container.
+
 **Fix:** Implemented a **Transformation Rule** in the PowerShell logic.
 * **New Logic:** `If Department == 'Management', Map to 'HR' OU`.
 * **Reasoning:** Executives require higher confidentiality, aligning best with HR security policies.
 
 ### Phase 2: State Repair (Idempotency)
 **Problem:** Simply updating the mapping logic did not fix the *existing* user who was already in the wrong folder.
+
 **Fix:** Upgraded script to Version 2.0 with **Self-Healing Logic**.
 * **Old Behavior:** If user exists, skip.
 * **New Behavior:** If user exists, **check location**. If location is wrong, **move object**.
