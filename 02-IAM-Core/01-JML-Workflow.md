@@ -1,4 +1,4 @@
-# Day 8: Identity Lifecycle (JML) Design
+# Identity Lifecycle (JML) Design
 
 ## 1. Project Overview
 **Objective:** standardize the creation and removal of identities to prepare for automation.
