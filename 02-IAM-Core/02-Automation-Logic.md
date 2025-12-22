@@ -31,9 +31,13 @@ Executed the onboarding script for a batch of 5 new employees.
 
 ## 4. "Failure Lab" Observation
 **Incident:** User `Eve Evil` (Management Dept) was processed but not placed in a specific OU.
+
 **Root Cause:** The script's `if/elseif` logic did not have a defined rule for "Management."
+
 **System Behavior:** The script triggered the `else` "Safety Net" clause and dumped the user in the default container.
+
 **Fix Required:** Update JML Logic Matrix to include Executive Management rules.
+
 ![AD Failure](./attachments/eve-users-created.png)
 
 ---
