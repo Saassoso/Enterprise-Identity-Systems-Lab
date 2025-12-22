@@ -21,11 +21,13 @@ Executed the onboarding script for a batch of 5 new employees.
 
 ![PowerShell Script Output](./attachments/powershell-onboarding.png)
 
-![AD Verification-Alice](./attachments/alice-users-created.png)
 *(Screenshot of ADUC showing Alice in HR)*
 
-![AD Verification-David](./attachments/david-users-created.png)
+![AD Verification-Alice](./attachments/alice-users-created.png)
+
 *(Screenshot of ADUC David in Contractors)*
+
+![AD Verification-David](./attachments/david-users-created.png)
 
 ## 4. "Failure Lab" Observation
 **Incident:** User `Eve Evil` (Management Dept) was processed but not placed in a specific OU.
