@@ -19,17 +19,20 @@ The script follows this JML decision tree:
 ## 3. Execution Evidence
 Executed the onboarding script for a batch of 5 new employees.
 
-![PowerShell Script Output](../assets/powershell-onboarding.png)
-*(Screenshot of the Green/Cyan text output in PowerShell ISE)*
+![PowerShell Script Output](./attachments/powershell-onboarding.png)
 
-![AD Verification](../assets/ad-users-created.png)
-*(Screenshot of ADUC showing Alice in HR and David in Contractors)*
+![AD Verification-Alice](./attachments/alice-users-created.png)
+*(Screenshot of ADUC showing Alice in HR)*
+
+![AD Verification-David](./attachments/david-users-created.png)
+*(Screenshot of ADUC David in Contractors)*
 
 ## 4. "Failure Lab" Observation
 **Incident:** User `Eve Evil` (Management Dept) was processed but not placed in a specific OU.
 **Root Cause:** The script's `if/elseif` logic did not have a defined rule for "Management."
 **System Behavior:** The script triggered the `else` "Safety Net" clause and dumped the user in the default container.
 **Fix Required:** Update JML Logic Matrix to include Executive Management rules.
+![AD Failure](./attachments/eve-users-created.png)
 
 ---
 *Scripted by: Saad Charif | Date: Dec 2025*
