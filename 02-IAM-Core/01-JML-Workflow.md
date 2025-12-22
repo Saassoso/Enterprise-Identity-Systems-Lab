@@ -2,6 +2,7 @@
 
 ## 1. Project Overview
 **Objective:** standardize the creation and removal of identities to prepare for automation.
+
 **Scope:** Automated provisioning for Employees and Contractors.
 
 ## 2. Naming Convention Standards
@@ -33,5 +34,7 @@ When a user is marked "Terminated" in the source (CSV):
 
 ## 5. Automation Strategy
 **Tool:** PowerShell (Active Directory Module).
+
 **Input Source:** `NewHires.csv` (Simulating an HR Data Feed).
+
 **Schedule:** Daily at 06:00 AM (Simulated).
